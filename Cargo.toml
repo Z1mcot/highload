@@ -1,0 +1,12 @@
+[package]
+name = "resilience"
+version = "0.1.0"
+edition = "2021"
+description = "Educational resilience strategies over an asynchronous model service"
+
+[dependencies]
+async-trait = "0.1"
+tokio = { version = "1", features = ["time", "macros", "rt"] }
+
+[dev-dependencies]
+tokio = { version = "1", features = ["test-util"] }
